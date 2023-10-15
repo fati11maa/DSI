@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-family: sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 1240px;
+  margin: 0 auto;
+}
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero-text h3 {
+  color: var(--, #161515);
+  font-size: 24px;
+  font-weight: 300;
+}
+.hero-text h1 {
+  color: #272727;
+  font-size: 250px;
+  font-weight: 300;
+}
+.hero-text p {
+  color: var(--, #161515);
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 155%; /* 49.6px */
+  margin-bottom: 74px;
+}
+.buttons {
+  display: flex;
+  align-items: center;
+}
+.btn-left {
+  background: #000;
+  width: 278px;
+  height: 82px;
+  color: #fff;
+  font-size: 32px;
+  font-weight: 300px;
+}
+.btn-right {
+  width: 143px;
+  height: 82px;
+  background: #fff;
+  box-shadow: 0px 0px 28px 0px rgba(214, 214, 214, 0.25);
+  color: #272727;
+  font-size: 32px;
+  font-weight: 300;
+}
+.hest h3 {
+  color: #000;
+  font-size: 24px;
+  font-weight: 300;
+}
+.nest h1 {
+  color: #000;
+  font-size: 72px;
+  font-weight: 400;
+}
+.nest img {
+  background: url(<path-to-image>),
+    lightgray -67px 0px / 143.357% 100% no-repeat;
+}
+.hest h2 {
+  color: #000;
+  font-size: 32px;
+  font-weight: 400;
+}
+.hest p {
+  color: var(--, #161515);
+  font-size: 32px;
+  font-weight: 300;
+}
+.nest {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 400px;
+}
+.three {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.three h2 {
+  color: #000;
+  font-size: 32px;
+  font-weight: 700;
+  /* margin: 30px; */
+}
+.three p {
+  color: var(--, #161515);
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 155%; /* 49. 6px*/
+  margin-bottom: 40px;
+}
+.line {
+  width: 120px;
+  height: 2px;
+  background: #000;
+  margin: 20px 0 50px 0;
+}
+.three p span {
+  color: #bb8b5d;
+}
+
+.nest p {
+  margin-top: -24pc;
+}
+.nest h2 {
+  margin-top: -23pc;
+  margin-bottom: 5px;
+}
+.nest img {
+  margin-top: -23pc;
+}
+
+.nest h1 {
+  margin-top: -23pc;
+}
+.logo img {
+  width: 500px;
+  height: 500px;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  margin: 100px 350px;
+}
+.logo h1 {
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.logo h1 {
+  color: #000;
+  font-size: 32px;
+  font-weight: 700;
+  margin: 30px 0;
+}
+.logo p {
+  color: var(--, #161515);
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 155% /* 49.6px */;
+  margin-bottom: 40px;
+}
+
+.line {
+  width: 120px;
+  height: 2px;
+  background: #000;
+  margin: 20px 0 50px 0;
+}
+.logo p span {
+  color: #bb8b5d;
+}
